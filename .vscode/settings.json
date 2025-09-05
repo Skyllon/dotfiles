@@ -1,0 +1,73 @@
+{
+    // Window
+    "window.title": "As always tilted... rm -rdf ${rootName}",
+    "window.menuBarVisibility": "hidden",
+    "window.commandCenter": false,
+    "window.zoomLevel": 1,
+
+    // Editor
+    "editor.inlineSuggest.enabled": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.tabSize": 4,
+    "editor.fontSize": 15,
+    "editor.smoothScrolling": true,
+    "editor.minimap.enabled": true,
+    "editor.minimap.scale": 2,
+    "editor.minimap.showSlider": "always",
+    "editor.stickyScroll.enabled": false,
+    "editor.inlayHints.enabled": "on",
+    "editor.fontLigatures": false,
+    "editor.fontWeight": 400,
+    "editor.cursorStyle": "block",
+    "editor.cursorBlinking": "smooth",
+    "editor.matchBrackets": "near",
+    "editor.unicodeHighlight.invisibleCharacters": true,
+    "editor.unicodeHighlight.ambiguousCharacters": true,
+    "editor.rulers": [80],
+    "editor.linkedEditing": true,
+    "editor.formatOnSave": false,
+    "editor.lineNumbers": "relative",
+    "scm.defaultViewMode": "tree",
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "workbench.colorTheme": "Gruvbox Material Dark",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.layoutControl.enabled": false,
+    "workbench.editor.wrapTabs": true,
+    "workbench.editor.enablePreview": false,
+    "workbench.localHistory.enabled": false,
+    "workbench.list.smoothScrolling": true,
+    "workbench.startupEditor": "none",
+    "workbench.colorCustomizations": {
+        "editorRuler.foreground": "#80808010"
+    },
+
+    // Git
+    "git.mergeEditor": true,
+    "git.autofetch": true,
+    "git.suggestSmartCommit": false,
+
+    // Terminal
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.smoothScrolling": true,
+    "terminal.integrated.minimumContrastRatio": 1,
+    "terminal.integrated.gpuAcceleration": "on",
+
+    // Files and search
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "explorer.compactFolders": false,
+    "search.useIgnoreFiles": true,
+    "security.workspace.trust.enabled": false,
+    "security.workspace.trust.untrustedFiles": "newWindow",
+
+    // Extensions settings
+    "indentRainbow.indicatorStyle": "light",
+    "workbench.editor.empty.hint": "hidden",
+    "chat.commandCenter.enabled": false,
+    "vim.handleKeys": {
+        "<C-f>": false,
+        "<C-p>": false,
+    },
+}
