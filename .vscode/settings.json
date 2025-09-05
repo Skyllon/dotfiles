@@ -6,6 +6,7 @@
     "window.zoomLevel": 1,
 
     // Editor
+    "editor.fontFamily": "Iosevka Extended",
     "editor.inlineSuggest.enabled": true,
     "editor.cursorSmoothCaretAnimation": "on",
     "editor.tabSize": 4,
@@ -70,4 +71,6 @@
         "<C-f>": false,
         "<C-p>": false,
     },
+    "redhat.telemetry.enabled": true,
 }
+
