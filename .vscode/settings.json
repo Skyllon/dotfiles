@@ -48,6 +48,7 @@
     "git.suggestSmartCommit": false,
 
     // Terminal
+    "terminal.integrated.fontFamily": "Iosevka Extended",
     "terminal.integrated.defaultProfile.linux": "zsh",
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.smoothScrolling": true,
