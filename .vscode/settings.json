@@ -19,7 +19,6 @@
     "editor.inlayHints.enabled": "on",
     "editor.fontLigatures": false,
     "editor.fontWeight": 400,
-    "editor.cursorStyle": "block",
     "editor.cursorBlinking": "smooth",
     "editor.matchBrackets": "near",
     "editor.unicodeHighlight.invisibleCharacters": true,
