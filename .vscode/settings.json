@@ -27,8 +27,10 @@
     "editor.linkedEditing": true,
     "editor.formatOnSave": false,
     "editor.lineNumbers": "relative",
+    "editor.bracketPairColorization.enabled": false,
     "scm.defaultViewMode": "tree",
     "C_Cpp.intelliSenseEngine": "disabled",
+    "workbench.colorTheme": "Default Dark+",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.layoutControl.enabled": false,
     "workbench.editor.wrapTabs": true,
@@ -63,7 +65,6 @@
     "security.workspace.trust.untrustedFiles": "newWindow",
 
     // Extensions settings
-    "indentRainbow.indicatorStyle": "light",
     "workbench.editor.empty.hint": "hidden",
     "chat.commandCenter.enabled": false,
     "vim.handleKeys": {
@@ -71,7 +72,5 @@
         "<C-p>": false,
     },
     "redhat.telemetry.enabled": true,
-    "editor.bracketPairColorization.enabled": false,
-    "workbench.colorTheme": "Default Dark+",
 }
 
