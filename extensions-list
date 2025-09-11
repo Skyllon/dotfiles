@@ -1,8 +1,15 @@
+angular.ng-template
+bradlc.vscode-tailwindcss
 christian-kohler.path-intellisense
+dbaeumer.vscode-eslint
+editorconfig.editorconfig
+esbenp.prettier-vscode
+github.vscode-github-actions
 gruntfuggly.todo-tree
 jakob101.relativepath
 llvm-vs-code-extensions.vscode-clangd
 mhutchie.git-graph
+mrmlnc.vscode-scss
 ms-python.debugpy
 ms-python.python
 ms-python.vscode-pylance
@@ -11,8 +18,10 @@ ms-vscode.cmake-tools
 ms-vscode.cpptools
 ms-vscode.cpptools-extension-pack
 ms-vscode.cpptools-themes
+mylesmurphy.prettify-ts
 pkief.material-icon-theme
 redhat.java
+sibiraj-s.vscode-scss-formatter
 usernamehw.errorlens
 visualstudioexptteam.intellicode-api-usage-examples
 visualstudioexptteam.vscodeintellicode
