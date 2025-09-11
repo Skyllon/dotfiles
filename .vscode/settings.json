@@ -46,6 +46,14 @@
     "git.mergeEditor": true,
     "git.autofetch": true,
     "git.suggestSmartCommit": false,
+    "git.confirmSync": false,
+    "gitlab.duoChat.enabled": false,
+    "gitlab.duoCodeSuggestions.enabled": false,
+    "git.branchProtection": ["gh-pages"],
+    "git.branchProtectionPrompt": "alwaysPrompt",
+    "git.openRepositoryInParentFolders": "never",
+    "diffEditor.ignoreTrimWhitespace": true,
+    "diffEditor.diffAlgorithm": "advanced",
 
     // Terminal
     "terminal.integrated.fontFamily": "Fira Code",
@@ -71,6 +79,46 @@
         "<C-f>": false,
         "<C-p>": false,
     },
-    "redhat.telemetry.enabled": true,
+    "redhat.telemetry.enabled": false,
+    "prettify-ts.enableHover": false,
+    "prettify-ts.viewNestedTypes": false,
+
+    // Frontend
+    "javascript.preferences.renameMatchingJsxTags": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "javascript.inlayHints.variableTypes.enabled": false,
+    "javascript.inlayHints.functionLikeReturnTypes.enabled": false,
+    "javascript.referencesCodeLens.enabled": true,
+    "typescript.preferences.renameMatchingJsxTags": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "typescript.inlayHints.variableTypes.enabled": false,
+    "typescript.inlayHints.functionLikeReturnTypes.enabled": false,
+    "typescript.referencesCodeLens.enabled": true,
+    "json.validate.enable": true,
+
+    "[css]": {
+        "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
 }
 
