@@ -1,125 +1,121 @@
 {
-    // Window
-    "window.title": "As always tilted... rm -rdf ${rootName}",
-    "window.menuBarVisibility": "hidden",
-    "window.commandCenter": false,
-    "window.zoomLevel": 1,
+  // Window
+  "window.title": "As always tilted... rm -rdf ${rootName}",
+  "window.menuBarVisibility": "hidden",
+  "window.commandCenter": false,
 
-    // Editor
-    "editor.fontFamily": "DejaVu Sans Mono",
-    "editor.inlineSuggest.enabled": true,
-    "editor.cursorSmoothCaretAnimation": "on",
-    "editor.tabSize": 2,
-    "editor.fontSize": 15,
-    "editor.smoothScrolling": true,
-    "editor.minimap.enabled": true,
-    "editor.minimap.scale": 2,
-    "editor.minimap.showSlider": "always",
-    "editor.stickyScroll.enabled": false,
-    "editor.inlayHints.enabled": "on",
-    "editor.fontLigatures": false,
-    "editor.fontWeight": 400,
-    "editor.cursorBlinking": "smooth",
-    "editor.matchBrackets": "near",
-    "editor.unicodeHighlight.invisibleCharacters": true,
-    "editor.unicodeHighlight.ambiguousCharacters": true,
-    "editor.rulers": [80],
-    "editor.linkedEditing": true,
-    "editor.lineNumbers": "relative",
-    "editor.formatOnSave": false,
-    "editor.bracketPairColorization.enabled": false,
-    "scm.defaultViewMode": "tree",
-    "C_Cpp.intelliSenseEngine": "disabled",
-    "workbench.colorTheme": "Default Dark+",
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.layoutControl.enabled": false,
-    "workbench.editor.wrapTabs": true,
-    "workbench.editor.enablePreview": false,
-    "workbench.localHistory.enabled": false,
-    "workbench.list.smoothScrolling": true,
-    "workbench.startupEditor": "none",
-    "workbench.colorCustomizations": {
-        "editorRuler.foreground": "#80808010"
-    },
+  // Editor
+  "workbench.iconTheme": "charmed-icons",
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "editor.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.inlineSuggest.enabled": true,
+  "editor.cursorStyle": "block",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.tabSize": 2,
+  "editor.fontSize": 15,
+  "editor.smoothScrolling": true,
+  "editor.minimap.enabled": true,
+  "editor.minimap.scale": 2,
+  "editor.minimap.showSlider": "always",
+  "editor.stickyScroll.enabled": false,
+  "editor.inlayHints.enabled": "on",
+  "editor.fontLigatures": false,
+  "editor.fontWeight": 400,
+  "editor.cursorBlinking": "smooth",
+  "editor.matchBrackets": "near",
+  "editor.unicodeHighlight.invisibleCharacters": true,
+  "editor.unicodeHighlight.ambiguousCharacters": true,
+  "editor.rulers": [80],
+  "editor.linkedEditing": true,
+  "editor.formatOnSave": false,
+  "editor.bracketPairColorization.enabled": false,
+  "scm.defaultViewMode": "tree",
+  "C_Cpp.intelliSenseEngine": "disabled",
+  "workbench.layoutControl.enabled": false,
+  "workbench.editor.wrapTabs": true,
+  "workbench.editor.enablePreview": false,
+  "workbench.localHistory.enabled": false,
+  "workbench.list.smoothScrolling": true,
+  "workbench.startupEditor": "none",
+  "workbench.colorCustomizations": {
+      "editorRuler.foreground": "#80808010"
+  },
 
-    // Git
-    "git.mergeEditor": true,
-    "git.autofetch": true,
-    "git.suggestSmartCommit": false,
-    "git.confirmSync": false,
-    "gitlab.duoChat.enabled": false,
-    "gitlab.duoCodeSuggestions.enabled": false,
-    "git.branchProtection": ["gh-pages"],
-    "git.branchProtectionPrompt": "alwaysPrompt",
-    "git.openRepositoryInParentFolders": "never",
-    "diffEditor.ignoreTrimWhitespace": true,
-    "diffEditor.diffAlgorithm": "advanced",
+  // Git
+  "git.mergeEditor": true,
+  "git.autofetch": true,
+  "git.suggestSmartCommit": false,
+  "git.confirmSync": false,
+  "gitlab.duoChat.enabled": false,
+  "gitlab.duoCodeSuggestions.enabled": false,
+  "git.branchProtection": ["gh-pages"],
+  "git.branchProtectionPrompt": "alwaysPrompt",
+  "git.openRepositoryInParentFolders": "never",
+  "diffEditor.ignoreTrimWhitespace": true,
+  "diffEditor.diffAlgorithm": "advanced",
 
-    // Terminal
-    "terminal.integrated.fontFamily": "Fira Code",
-    "terminal.integrated.defaultProfile.linux": "zsh",
-    "terminal.integrated.cursorBlinking": true,
-    "terminal.integrated.smoothScrolling": true,
-    "terminal.integrated.minimumContrastRatio": 1,
-    "terminal.integrated.gpuAcceleration": "on",
+  // Terminal
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.smoothScrolling": true,
+  "terminal.integrated.minimumContrastRatio": 1,
+  "terminal.integrated.gpuAcceleration": "on",
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
 
-    // Files and search
-    "files.insertFinalNewline": true,
-    "files.trimFinalNewlines": true,
-    "files.trimTrailingWhitespace": true,
-    "explorer.compactFolders": false,
-    "search.useIgnoreFiles": true,
-    "security.workspace.trust.enabled": false,
-    "security.workspace.trust.untrustedFiles": "newWindow",
 
-    // Extensions settings
-    "workbench.editor.empty.hint": "hidden",
-    "chat.commandCenter.enabled": false,
-    "redhat.telemetry.enabled": false,
-    "prettify-ts.enableHover": false,
-    "prettify-ts.viewNestedTypes": false,
-    "vim.handleKeys": {
-        "<C-f>": false,
-        "<C-p>": false,
-    },
+  // Files and search
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "explorer.compactFolders": false,
+  "search.useIgnoreFiles": true,
+  "security.workspace.trust.enabled": false,
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "explorer.confirmDelete": false,
 
-    // Frontend
-    "javascript.preferences.renameMatchingJsxTags": true,
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "javascript.inlayHints.variableTypes.enabled": false,
-    "javascript.inlayHints.functionLikeReturnTypes.enabled": false,
-    "javascript.referencesCodeLens.enabled": true,
-    "typescript.preferences.renameMatchingJsxTags": true,
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "typescript.inlayHints.variableTypes.enabled": false,
-    "typescript.inlayHints.functionLikeReturnTypes.enabled": false,
-    "typescript.referencesCodeLens.enabled": true,
-    "json.validate.enable": true,
+  // Extensions settings
+  "workbench.editor.empty.hint": "hidden",
+  "chat.commandCenter.enabled": false,
+  "redhat.telemetry.enabled": false,
+  "prettify-ts.enableHover": false,
+  "prettify-ts.viewNestedTypes": false,
 
-    "[css]": {
-        "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
-    },
-    "[scss]": {
-        "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
-    },
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[jsonc]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
-    },
-    "explorer.confirmDelete": false,
+  // Frontend
+  "javascript.preferences.renameMatchingJsxTags": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.inlayHints.variableTypes.enabled": false,
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": false,
+  "javascript.referencesCodeLens.enabled": true,
+  "typescript.preferences.renameMatchingJsxTags": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.inlayHints.variableTypes.enabled": false,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": false,
+  "typescript.referencesCodeLens.enabled": true,
+  "json.validate.enable": true,
+
+  "[css]": {
+      "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+  },
+  "[scss]": {
+      "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+  },
+  "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
+},
 }
 
