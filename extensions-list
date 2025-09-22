@@ -2,6 +2,7 @@ angular.ng-template
 bradlc.vscode-tailwindcss
 christian-kohler.path-intellisense
 dbaeumer.vscode-eslint
+ecmel.vscode-html-css
 editorconfig.editorconfig
 esbenp.prettier-vscode
 github.vscode-github-actions
@@ -22,6 +23,7 @@ mylesmurphy.prettify-ts
 pkief.material-icon-theme
 redhat.java
 sibiraj-s.vscode-scss-formatter
+tom-latham.markdown-pdf-plus
 usernamehw.errorlens
 visualstudioexptteam.intellicode-api-usage-examples
 visualstudioexptteam.vscodeintellicode
@@ -32,3 +34,4 @@ vscjava.vscode-java-pack
 vscjava.vscode-java-test
 vscjava.vscode-maven
 vscodevim.vim
+yzhang.markdown-all-in-one
