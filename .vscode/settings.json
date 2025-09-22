@@ -25,8 +25,8 @@
     "editor.unicodeHighlight.ambiguousCharacters": true,
     "editor.rulers": [80],
     "editor.linkedEditing": true,
-    "editor.formatOnSave": false,
     "editor.lineNumbers": "relative",
+    "editor.formatOnSave": false,
     "editor.bracketPairColorization.enabled": false,
     "scm.defaultViewMode": "tree",
     "C_Cpp.intelliSenseEngine": "disabled",
@@ -75,13 +75,13 @@
     // Extensions settings
     "workbench.editor.empty.hint": "hidden",
     "chat.commandCenter.enabled": false,
+    "redhat.telemetry.enabled": false,
+    "prettify-ts.enableHover": false,
+    "prettify-ts.viewNestedTypes": false,
     "vim.handleKeys": {
         "<C-f>": false,
         "<C-p>": false,
     },
-    "redhat.telemetry.enabled": false,
-    "prettify-ts.enableHover": false,
-    "prettify-ts.viewNestedTypes": false,
 
     // Frontend
     "javascript.preferences.renameMatchingJsxTags": true,
@@ -120,5 +120,6 @@
     "[html]": {
         "editor.defaultFormatter": "vscode.html-language-features"
     },
+    "explorer.confirmDelete": false,
 }
 
