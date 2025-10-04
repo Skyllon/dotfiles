@@ -1,0 +1,50 @@
+@define-color foreground #c1c1c1;
+@define-color foreground-inactive #7f8c8d;
+@define-color background #121212;
+@define-color background-alt #333333;
+
+* {
+    font-family: Iosevka Nerd Font;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    color: @foreground;
+}
+
+#waybar {
+    color: @foreground;
+    background-color: @background;
+    border: 2px solid @background-alt;
+}
+
+#workspaces button {
+    padding-left: 1em;
+    padding-right: 1.3em;
+}
+
+#workspaces button.empty {
+    color: @foreground-inactive;
+}
+
+#workspaces button.active {
+    background-color: @background-alt;
+    border-radius: 3px;
+}
+
+#wireplumber,
+#bat,
+#tray,
+#usage,
+#cpu,
+#memory,
+#temperature,
+#network,
+#battery,
+#pulseaudio,
+#power,
+#net {
+    border-radius: 3px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    margin-left: 0.3em;
+}
