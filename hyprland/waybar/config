@@ -19,6 +19,8 @@
 
     "modules-right": [
         "tray",
+        "hyprland/language",
+        "pulseaudio",
         "cpu",
         "memory",
         "temperature",
@@ -37,9 +39,9 @@
         "format": "{title}",
         "max-length": 50,
         "rewrite": {
-            "(.*) — Mozilla Firefox": "󰈹  $1",
-            "(.*) - Spotify": "󰓇  $1",
-            "kitty": "󰄛 Terminal"
+          "Telegram": "🌐Messenger",
+          "Alacritty": "</> Terminal",
+          "Visual Studio Code": "{ code 'n chill }"
         }
     },
 
@@ -71,8 +73,6 @@
     },
 
     "temperature": {
-        "thermal-zone": 2,
-        "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
         "critical-threshold": 80,
         "format": "<b>TMP:</b> {temperatureC}°C",
         "format-critical": "<b>WRN:</b> {temperatureC}°C",
@@ -88,8 +88,6 @@
     },
 
     "battery": {
-        "bat": "BAT0",
-        "adapter": "ADP1",
         "interval": 30,
         "states": {
             "warning": 30,
@@ -107,4 +105,20 @@
         "icon-size": 18,
         "spacing": 8
     },
+
+    "hyprland/language": {
+      "format": "{short}",
+      "rewrite": {
+        "Russian": "ru",
+        "English (US)": "us"
+      }
+    },
+
+    "pulseaudio": {
+      "format": "{volume}%",
+      "format-muted": "muted",
+      "format-bluetooth": "{volume}%",
+      "format-bluetooth-muted": "muted",
+      "on-click": "pavucontrol"
+    }
 }
