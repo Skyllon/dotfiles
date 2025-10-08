@@ -6,13 +6,12 @@
 
   // Editor
   "workbench.iconTheme": "charmed-icons",
-  "workbench.colorTheme": "One Dark Pro Darker",
-  "editor.fontFamily": "JetBrainsMono Nerd Font",
+  "workbench.colorTheme": "Monochrome",
+  "editor.fontFamily": "Iosevka Nerd Font",
   "editor.inlineSuggest.enabled": true,
-  "editor.cursorStyle": "block",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.tabSize": 2,
-  "editor.fontSize": 15,
+  "editor.fontSize": 18,
   "editor.smoothScrolling": true,
   "editor.minimap.enabled": true,
   "editor.minimap.scale": 2,
@@ -60,8 +59,8 @@
   "terminal.integrated.smoothScrolling": true,
   "terminal.integrated.minimumContrastRatio": 1,
   "terminal.integrated.gpuAcceleration": "on",
-  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
-
+  "terminal.integrated.fontFamily": "Iosevka Nerd Font",
+  "terminal.integrated.fontSize": 18,
 
   // Files and search
   "files.insertFinalNewline": true,
@@ -79,6 +78,10 @@
   "redhat.telemetry.enabled": false,
   "prettify-ts.enableHover": false,
   "prettify-ts.viewNestedTypes": false,
+  "vim.handleKeys": {
+    "<C-f>": false,
+    "<C-p>": false,
+   },
 
   // Frontend
   "javascript.preferences.renameMatchingJsxTags": true,
@@ -118,4 +121,3 @@
       "editor.defaultFormatter": "vscode.html-language-features"
 },
 }
-
