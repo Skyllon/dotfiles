@@ -25,7 +25,7 @@
   "editor.unicodeHighlight.ambiguousCharacters": true,
   "editor.rulers": [80],
   "editor.linkedEditing": true,
-  "editor.formatOnSave": false,
+  "editor.formatOnSave": true,
   "editor.bracketPairColorization.enabled": true,
   "scm.defaultViewMode": "tree",
   "C_Cpp.intelliSenseEngine": "disabled",
@@ -36,7 +36,7 @@
   "workbench.list.smoothScrolling": true,
   "workbench.startupEditor": "none",
   "workbench.colorCustomizations": {
-      "editorRuler.foreground": "#80808010"
+    "editorRuler.foreground": "#80808010"
   },
 
   // Git
@@ -78,8 +78,8 @@
   "prettify-ts.viewNestedTypes": false,
   "vim.handleKeys": {
     "<C-f>": false,
-    "<C-p>": false,
-   },
+    "<C-p>": false
+  },
 
   // Frontend
   "javascript.preferences.renameMatchingJsxTags": true,
@@ -95,27 +95,27 @@
   "json.validate.enable": true,
 
   "[css]": {
-      "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+    "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
   },
   "[scss]": {
-      "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+    "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
   },
   "[typescriptreact]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescript]": {
-      "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "[json]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[jsonc]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascript]": {
-      "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "[html]": {
-      "editor.defaultFormatter": "vscode.html-language-features"
-},
+    "editor.defaultFormatter": "vscode.html-language-features"
+  }
 }
