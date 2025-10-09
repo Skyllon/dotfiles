@@ -3,7 +3,6 @@
   "window.title": "As always tilted... rm -rdf ${rootName}",
   "window.menuBarVisibility": "hidden",
   "window.commandCenter": false,
-  "window.zoomLevel": 1,
 
   // Editor
   "workbench.iconTheme": "material-icon-theme",
@@ -12,14 +11,13 @@
   "editor.inlineSuggest.enabled": true,
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.tabSize": 2,
-  "editor.fontSize": 15,
   "editor.smoothScrolling": true,
   "editor.minimap.enabled": true,
   "editor.minimap.scale": 2,
   "editor.minimap.showSlider": "always",
   "editor.stickyScroll.enabled": false,
   "editor.inlayHints.enabled": "on",
-  "editor.fontLigatures": true,
+  "editor.fontLigatures": false,
   "editor.fontWeight": 400,
   "editor.cursorBlinking": "smooth",
   "editor.matchBrackets": "near",
@@ -28,7 +26,7 @@
   "editor.rulers": [80],
   "editor.linkedEditing": true,
   "editor.formatOnSave": false,
-  "editor.bracketPairColorization.enabled": false,
+  "editor.bracketPairColorization.enabled": true,
   "scm.defaultViewMode": "tree",
   "C_Cpp.intelliSenseEngine": "disabled",
   "workbench.layoutControl.enabled": false,
@@ -61,7 +59,6 @@
   "terminal.integrated.minimumContrastRatio": 1,
   "terminal.integrated.gpuAcceleration": "on",
   "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
-  "terminal.integrated.fontSize": 15,
 
   // Files and search
   "files.insertFinalNewline": true,
