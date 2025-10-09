@@ -1,0 +1,47 @@
+require("nvchad.configs.lspconfig").defaults()
+
+local servers = {
+  "angularls",
+  "ansiblels",
+  "antlersls",
+  "apex_ls",
+  "arduino_language_server",
+  "asm_lsp",
+  "astro",
+  "bashls",
+  "beancount",
+  "bicep",
+  "ccls",
+  "clangd",
+  "cmake",
+  "cobol_ls",
+  "cssls",
+  "dockerls",
+  "elmls",
+  "emmet_ls",
+  "emmet_language_server",
+  "erlangls",
+  "eslint",
+  "fennel_language_server",
+  "fennel_ls",
+  "fsautocomplete",
+  "gdscript",
+  "html",
+  "intelephense",
+  "jedi_language_server",
+  "jsonls",
+  "lua_ls",
+  "metals",
+  "nimls",
+  "pylsp",
+  "pyright",
+  "rust_analyzer",
+  "terraformls",
+  "tsserver",
+  "vue_ls",
+  "yamlls",
+}
+
+vim.lsp.enable(servers)
+
+-- read :h vim.lsp.config for changing options of lsp servers 
